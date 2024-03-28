@@ -1,4 +1,4 @@
-with open('./test.html','r',encoding='utf-8') as f :
+with open('240328_finding_tag/test.html','r',encoding='utf-8') as f :
     html = f.read()
 
 from bs4 import BeautifulSoup
